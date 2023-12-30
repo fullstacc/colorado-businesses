@@ -20,10 +20,6 @@ Data Engineering &amp; Analysis project using publicly available data
 
 ## Log
 
-### 12/28/2023
-- Do I have the data required to group by type or by industry? 
-    - No, not with the current dataset
-
 ### 12/30/2023
 Current emphasis (given available data):
 1. Which counties in Colorado have the highest number of business filings?
@@ -42,4 +38,10 @@ Additional Data Needed:
 - **In different regions, what are the most common types of businesses or industries?**
   - *(Not Answerable with Current Data: Requires industry data which is not present.)*
 - **What business types are most prevalent? Was this always the case?**
+
+### 12/28/2023
+- Do I have the data required to group by type or by industry? 
+    - No, not with the current dataset
+
+
 
