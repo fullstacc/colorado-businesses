@@ -13,6 +13,7 @@ df = pd.read_csv('Business.csv')
 
 top_level = st.sidebar.selectbox("Choose a category", ["Home", "State-Level Analytics", "County-Level Analytics"])
 
+
 if top_level == "State-Level Analytics":
     second_level = st.sidebar.selectbox("Choose a sub-category", ["Overview", "Business Entity Types"])
     if second_level == "Overview":
@@ -26,6 +27,8 @@ elif top_level == "Home":
     st.write("Welcome to the Colorado Business Data Dashboard!")
     st.write("This dashboard provides an interactive way to explore business data in Colorado.")
     st.write("Use the sidebar to navigate between pages.")
+else:
+    st.write("Please select a category from the sidebar.")
 
 
 
