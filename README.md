@@ -20,6 +20,16 @@ Data Engineering &amp; Analysis project using publicly available data
 
 ## Log
 
+### 12/31/2023 
+
+DONE:
+- ✅ Business Enttiy data (State Level)
+
+TODO: 
+- Refactor visualizations to be in their own modules (simplifies code)
+- Business Entity geoplot
+- Business Entity Industry discovery (possible NLP)
+
 ### 12/30/2023
 Current emphasis (given available data):
 1. Which counties in Colorado have the highest number of business filings?

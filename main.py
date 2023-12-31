@@ -15,11 +15,13 @@ top_level = st.sidebar.selectbox("Choose a category", ["Home", "State-Level Anal
 
 
 if top_level == "State-Level Analytics":
-    second_level = st.sidebar.selectbox("Choose a sub-category", ["Overview", "Business Entity Types"])
-    if second_level == "Overview":
-        state.show_overview()
-    elif second_level == "Business Entity Types":
+    second_level = st.sidebar.selectbox("Choose a sub-category", ["Overview", "Business Entity Types","Foreign Investment"], index=0)
+    if second_level == "Business Entity Types":
         state.show_business_entity_types(df)
+    elif second_level == "Foreign Investment":
+        state.show_foreign_investment(df)
+    else:
+        state.show_overview()
 elif top_level == "County-Level Analytics":
     st.title("Coming Soon!")
 elif top_level == "Home":
