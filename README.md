@@ -15,7 +15,11 @@ Data Engineering &amp; Analysis project using publicly available data
 - [Colorado Information Marketplace: Business Entities in Colorado](https://data.colorado.gov/Business/Business-Entities-in-Colorado/4ykn-tg5h/about_data)
 
 
-
+## Main Dev Trajectory
+1. Get all the things in place to answer all of the key questions using one datasource
+2. Get all the things in place to answer all of the key questions using derived or multiple datasources
+3. Deploy production system with updating data
+4. Get feedback
 
 
 ## Log
@@ -24,8 +28,10 @@ Data Engineering &amp; Analysis project using publicly available data
 
 DONE:
 - ✅ Business Enttiy data (State Level)
+- Foreign Investment (basic)
 
 TODO: 
+- Foreign Investment geoplot
 - Refactor visualizations to be in their own modules (simplifies code)
 - Business Entity geoplot
 - Business Entity Industry discovery (possible NLP)
