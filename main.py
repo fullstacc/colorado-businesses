@@ -1,4 +1,7 @@
 import streamlit as st
+# page config
+st.set_page_config(page_title="Colorado Business Data Dashboard", page_icon="static/co-favicon.png")
+
 from views import state, about
 # from utils import data_loader  # Import utility functions
 
@@ -10,6 +13,10 @@ import numpy as npx
 # import dataframe for the rest of the app to use
 # based on the st docs, this will load df into memory and the rest of the pages can use it
 df = pd.read_csv('Business.csv')
+
+
+# flag
+st.sidebar.image('static/colorado_flag.svg', width=100)
 
 top_level = st.sidebar.selectbox("Choose a category", ["Home", "State-Level Analytics", "County-Level Analytics"])
 

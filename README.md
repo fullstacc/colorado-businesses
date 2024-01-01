@@ -24,6 +24,12 @@ Data Engineering &amp; Analysis project using publicly available data
 
 ## Log
 
+### 01/01/2024
+DONE:
+- Contacted CDOS (business entity principalcountry, principalstate) naming conventions
+- Additional EDA and whiteboard for deployment, DB schema
+- Updated gitignore for txt
+
 ### 12/31/2023 
 
 DONE:
