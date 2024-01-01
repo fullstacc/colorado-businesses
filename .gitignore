@@ -163,3 +163,4 @@ cython_debug/
 myenv/
 *.csv
 .DS_Store
+*businesses.txt
