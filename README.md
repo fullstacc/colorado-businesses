@@ -24,6 +24,9 @@ Data Engineering &amp; Analysis project using publicly available data
 
 ## Log
 
+### 01/02/2024
+
+
 ### 01/01/2024
 DONE:
 - Contacted CDOS (business entity principalcountry, principalstate) naming conventions
