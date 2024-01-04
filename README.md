@@ -24,7 +24,14 @@ Data Engineering &amp; Analysis project using publicly available data
 
 ## Log
 
-### 01/02/2024
+### 01/04/2024
+DONE:
+- Refactor State Level view, overall site structure
+- Added 5-year graph for state level view
+
+TODO:
+- Fix state-level `entityformdate`logic. Inconsistent number of businesses formed in 2023. Earliest date shows 1975 but should be earlier.
+- Geoplots
 
 
 ### 01/01/2024
@@ -41,7 +48,7 @@ DONE:
 
 TODO: 
 - Foreign Investment geoplot
-- Refactor visualizations to be in their own modules (simplifies code)
+- ~~Refactor visualizations to be in their own modules (simplifies code)~~
 - Business Entity geoplot
 - Business Entity Industry discovery (possible NLP)
 
