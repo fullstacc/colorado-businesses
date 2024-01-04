@@ -17,6 +17,7 @@ df = pd.read_csv('Business.csv')
 # visualization
 from visualizations.foreign_investment import show_foreign_investment
 from visualizations.business_entity_types import show_business_entity_types
+from visualizations.state_overview import show_state_overview
 
 
 # flag
@@ -34,7 +35,7 @@ if top_level == "State-Level Analytics":
     elif second_level == "Trend Analysis":
         state.show_trend_analysis(df)
     else:
-        state.show_overview()
+        show_state_overview(df)
 elif top_level == "County-Level Analytics":
     st.title("Coming Soon!")
 elif top_level == "Home":
