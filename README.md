@@ -24,13 +24,29 @@ Data Engineering &amp; Analysis project using publicly available data
 
 ## Log
 
+
+### 01/06/2024
+DONE: 
+- Fixed `entityformdate` logic
+- Added tooltip to `entitystatus` radio button
+- Added Summary Options Radio Button to State-Level Analytics
+
+TODO:
+- 10 Year, Year-by-Year Summary
+- Foreign Investment table refactor
+- Data Tables & Augmentation:
+  - Foreign Investment (Flags)
+  - Geoplot / latlon for businesses
+  - County grouping
+
+
 ### 01/04/2024
 DONE:
 - Refactor State Level view, overall site structure
 - Added 5-year graph for state level view
 
 TODO:
-- Fix state-level `entityformdate`logic. Inconsistent number of businesses formed in 2023. Earliest date shows 1975 but should be earlier.
+- ~~Fix state-level `entityformdate`logic. Inconsistent number of businesses formed in 2023. Earliest date shows 1975 but should be earlier.~~
 - Geoplots
 
 

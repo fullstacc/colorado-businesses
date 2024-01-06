@@ -12,7 +12,7 @@ import numpy as npx
 
 # import dataframe for the rest of the app to use
 # based on the st docs, this will load df into memory and the rest of the pages can use it
-df = pd.read_csv('Business.csv')
+df = pd.read_csv('Business.csv', parse_dates=['entityformdate'])
 
 # visualization
 from visualizations.foreign_investment import show_foreign_investment
