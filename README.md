@@ -24,6 +24,21 @@ Data Engineering &amp; Analysis project using publicly available data
 
 ## Log
 
+### 01/07/2024
+DONE:
+- Added 10 year summary to state level overview
+- Refactor to create individual module and functions for graphs and tables
+
+TODO:
+- Finish Refactor
+- Year-by-Year Summary
+- Foreign Investment table refactor
+- Data Tables & Augmentation:
+  - Foreign Investment (Flags)
+  - Geoplot / latlon for businesses
+  - County grouping
+
+
 
 ### 01/06/2024
 DONE: 
@@ -32,7 +47,7 @@ DONE:
 - Added Summary Options Radio Button to State-Level Analytics
 
 TODO:
-- 10 Year, Year-by-Year Summary
+- ~~10 Year~~, Year-by-Year Summary
 - Foreign Investment table refactor
 - Data Tables & Augmentation:
   - Foreign Investment (Flags)
