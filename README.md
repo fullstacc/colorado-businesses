@@ -24,13 +24,26 @@ Data Engineering &amp; Analysis project using publicly available data
 
 ## Log
 
+### 01/08/2024
+DONE:
+- Finish Refactor
+
+TODO:
+- Explore deployment methodology
+- Year-by-Year Summary
+- Foreign Investment table refactor
+- Data Tables & Augmentation:
+  - Foreign Investment (Flags)
+  - Geoplot / latlon for businesses
+  - County grouping
+
 ### 01/07/2024
 DONE:
 - Added 10 year summary to state level overview
 - Refactor to create individual module and functions for graphs and tables
 
 TODO:
-- Finish Refactor
+- ~~Finish Refactor~~
 - Year-by-Year Summary
 - Foreign Investment table refactor
 - Data Tables & Augmentation:
