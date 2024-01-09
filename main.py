@@ -32,8 +32,6 @@ if top_level == "State-Level Analytics":
         show_business_entity_types(df)
     elif second_level == "Foreign Investment":
         show_foreign_investment(df)
-    elif second_level == "Trend Analysis":
-        state.show_trend_analysis(df)
     else:
         show_state_overview(df)
 elif top_level == "County-Level Analytics":
