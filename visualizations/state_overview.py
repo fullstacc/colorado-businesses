@@ -51,6 +51,8 @@ def show_state_overview(df):
         elif selected_option == "Show Past Year Summary":
             st.write("Coming Soon!")
 
+            time_series_summary_tools.show_past_year_graph(df_exists)
+
             # # Display the markdown table
             # st.markdown(markdown_table)
 

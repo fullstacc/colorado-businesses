@@ -97,3 +97,21 @@ def show_line_graph(df, selected_option):
         st.markdown(markdown_table)
     
       
+def show_past_year_graph(df):
+    """
+    Displays a line graph of the count of businesses formed over the last 12 months.
+
+    Parameters:
+        df (pandas.DataFrame): The DataFrame containing the business data.
+
+    Returns:
+        None
+    """
+    st.title("Total Number of Businesses Formed in the Last 12 Months")
+    df.loc[:, 'month'] = df['entityformdate'].dt.strftime('%Y-%m')
+    df_last_year = df[df['entityformdate'] >= (pd.to_datetime('today') - pd.DateOffset(months=12))]
+    business_count_by_month = df_last_year.groupby('month').size().reset_index(name='count')
+
+    # line graph
+    fig2 = px.line(business_count_by_month, x='month', y='count')
+    st.plotly_chart(fig2)
