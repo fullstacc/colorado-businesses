@@ -1,5 +1,22 @@
 # Log
 
+
+### 01/11/2024
+DONE:
+- Created schema, table in backend (supabase)
+- Initiated digitalocean serverless function to fetch data from source and upsert backend table
+
+
+IN-PROGRESS:
+- Finish serverless function
+  - see TODO's
+  - test function
+
+TODO:
+- understand production deployment environment (streamlit community?)
+
+
+
 ### 01/09/2024
 DONE:
 - Year-by-Year Summary
@@ -18,6 +35,7 @@ TODO:
   - Foreign Investment (Flags)
   - Geoplot / latlon for businesses
   - County grouping
+
 
 ### 01/08/2024
 DONE:
