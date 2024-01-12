@@ -1,0 +1,39 @@
+parameters: {}
+environment: {}
+packages:
+    - name: packages-business-data
+      shared: false
+      environment: {}
+      parameters: {}
+      annotations: {}
+      functions:
+        - name: fetch-and-update
+          binary: false
+          main: "packages/fetch-and-update/fetch-and-update.py"
+          runtime: python:default
+          web: true
+          webSecure: false
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}
+        - name: test-fetch
+          binary: false
+          main: "packages/test-fetch/test-fetch.py"
+          runtime: python:default
+          web: true
+          webSecure: false
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}
+        - name: test-update
+          binary: false
+          main: "packages/test-update/test-update.py"
+          runtime: python:default
+          web: true
+          webSecure: false
+          parameters: {}
+          environment: {}
+          annotations: {}
+          limits: {}
